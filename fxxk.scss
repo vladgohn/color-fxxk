@@ -1,0 +1,34 @@
+$pix-size: 8px;
+
+.fxxk {
+	position: relative;
+	width: $pix-size * 3;
+	height: $pix-size * 4;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	border-radius: 4px;
+	background-color: #fff;
+	filter: saturate(150%);
+
+	.shard {
+		text-align: center;
+		font-size: $pix-size;
+		font-weight: 600;
+		color: #000;
+		background-color: black;
+		display: block;
+		width: $pix-size;
+		height: $pix-size;
+		line-height: .8em;
+		animation: expand .237s ease-in-out;
+	}
+
+	@keyframes expand {
+		from {
+			transform: scale(0);
+			opacity: 0;
+			background: #5470B0;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.fxxk {
+  position: relative;
+  width: 24px;
+  height: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #fff;
+  filter: saturate(150%);
+}
+.fxxk .shard {
+  text-align: center;
+  font-size: 8px;
+  font-weight: 600;
+  color: #000;
+  background-color: black;
+  display: block;
+  width: 8px;
+  height: 8px;
+  line-height: 0.8em;
+  animation: expand 0.237s ease-in-out;
+}
+@keyframes expand {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    background: #5470B0;
+  }
+}/*# sourceMappingURL=fxxk.css.map */
